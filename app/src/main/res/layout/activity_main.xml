@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="SQLite DataBase"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Paises: "
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/txtDataSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="280sp" />
+
+    <EditText
+        android:id="@+id/et_dataSQLite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp"
+        android:minWidth="250dp"
+        android:hint="Pais"/>
+
+    <Button
+        android:id="@+id/btnInsertSQLite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp"
+        android:minWidth="250dp"
+        android:text="Insertar Pais"
+        android:textColor="#fff" />
+
+
+    <Button
+        android:id="@+id/btnFetchSQLite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp"
+        android:minWidth="250dp"
+        android:text="Leer DB"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
